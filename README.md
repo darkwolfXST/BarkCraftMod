@@ -6,6 +6,3 @@ This plugin was originally coded by StevenLawson (Madgeek1450), with Jerom van d
 
 ### Download ###
 You may download official binaries from the [releases page](https://github.com/TotalFreedom/TotalFreedomMod/releases).
-
-### Contributing ###
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) if you are interested in developing TotalFreedomMod. For information on how TotalFreedomMod is licensed, please see [LICENSE.md](LICENSE.md).
