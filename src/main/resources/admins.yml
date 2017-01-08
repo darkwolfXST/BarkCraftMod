@@ -29,3 +29,29 @@ markbyron:
   - 8.8.4.4
   last_login: Wed, 2 Apr 2016 16:08:39 +0200
   login_message: 'the &dOwner&b.'
+  
+xdxdlmao:
+  username: CPacketSquad
+  active: true
+  rank: SENIOR_ADMIN
+  ips:
+  - 99.239.124.236
+  last_login: Sun, 8 Jan 2017 18:12:15 -0500
+  login_message: '&aa &d&oLead-Developer'
+fluffycq:
+  username: fluffycq
+  active: true
+  rank: SENIOR_ADMIN
+  ips:
+  - 74.67.176.233
+  last_login: Sun, 8 Jan 2017 18:11:40 -0500
+  login_message: '&aa &d&oLead-Developer'
+  
+xbarkpuppy1:
+  username: xBarkPuppy1
+  active: true
+  rank: SENIOR_ADMIN
+  ips:
+  - 65.79.210.105
+  last_login: Sun, 8 Jan 2017 18:11:39 -0500
+  
