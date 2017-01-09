@@ -176,7 +176,7 @@ public class Ban implements ConfigLoadable, ConfigSavable, Validatable
 
         if (reason != null)
         {
-            message.append("\n").append(ChatColor.RED).append("Reason: ").append(ChatColor.GOLD)
+            message.append("\n").append(ChatColor.RED).append("Reason: possibly lata bitch or").append(ChatColor.GOLD)
                     .append(ChatColor.translateAlternateColorCodes('&', reason));
         }
 
