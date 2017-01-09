@@ -13,6 +13,7 @@ public enum Title implements Displayable
     SYSTEM_ADMIN("a", "System Admin", ChatColor.DARK_RED, "System-Admin"),
     EXECUTIVE("an", "Executive", ChatColor.YELLOW, "Executive"),
     M1CE("the", "great M1CE", ChatColor.LIGHT_PURPLE, "M1CE"),
+    PACKET_SQUAD("a", "PacketSquad member", ChatColor.LIGHT_PURPLE, "PacketSquad"),
     PLUGIN_DEVELOPER("a", "Plugin-Developer", ChatColor.LIGHT_PURPLE, "Plugin-Dev"),
     STAFF_MANAGER("a", "Staff Manager", ChatColor.DARK_RED, "Staff-Manager");
 
