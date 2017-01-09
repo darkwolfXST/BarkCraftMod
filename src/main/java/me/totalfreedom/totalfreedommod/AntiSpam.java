@@ -69,8 +69,8 @@ public class AntiSpam extends FreedomService
         // Check for spam
         if (playerdata.incrementAndGetMsgCount() > MSG_PER_CYCLE)
         {
-            FSync.bcastMsg(player.getName() + " was automatically kicked for spamming chat.", ChatColor.RED);
-            FSync.autoEject(player, "Kicked for spamming chat.");
+            FSync.bcastMsg(player.getName() + " was automatically kicked in the ass for spamming chat.", ChatColor.RED);
+            FSync.autoEject(player, "Kicked in the ass for spamming chat.");
 
             playerdata.resetMsgCount();
 
@@ -81,8 +81,8 @@ public class AntiSpam extends FreedomService
         // Check for message repeat
         if (playerdata.getLastMessage().equalsIgnoreCase(message))
         {
-            FSync.playerMsg(player, "Please do not repeat messages.");
-            event.setCancelled(true);
+            FSync.playerMsg(player, "Try not to repeat. Ok?");
+            event.setCancelled(false);
             return;
         }
 
@@ -99,15 +99,15 @@ public class AntiSpam extends FreedomService
 
         if (fPlayer.allCommandsBlocked())
         {
-            FUtil.playerMsg(player, "Your commands have been blocked by an admin.", ChatColor.RED);
+            FUtil.playerMsg(player, "Your commands have been blocked by a fucking admin.", ChatColor.RED);
             event.setCancelled(true);
             return;
         }
 
         if (fPlayer.incrementAndGetMsgCount() > MSG_PER_CYCLE)
         {
-            FUtil.bcastMsg(player.getName() + " was automatically kicked for spamming commands.", ChatColor.RED);
-            plugin.ae.autoEject(player, "Kicked for spamming commands.");
+            FUtil.bcastMsg(player.getName() + "was a dirty dirty Command spammer, lata bitch.", ChatColor.RED);
+            plugin.ae.autoEject(player, "Banned for spamming commands.");
 
             fPlayer.resetMsgCount();
             event.setCancelled(true);
