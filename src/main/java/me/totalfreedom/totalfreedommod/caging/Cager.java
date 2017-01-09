@@ -78,7 +78,7 @@ public class Cager extends FreedomService
         if (outOfCage)
         {
             player.getPlayer().teleport(cageLoc.subtract(0, 0.1, 0));
-            FUtil.playerMsg(player.getPlayer(), "You may not leave your cage.", ChatColor.RED);
+            FUtil.playerMsg(player.getPlayer(), "You may not leave your fucking cage.", ChatColor.RED);
             cage.regenerate();
         }
     }
