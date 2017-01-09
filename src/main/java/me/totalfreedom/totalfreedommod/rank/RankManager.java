@@ -118,6 +118,12 @@ public class RankManager extends FreedomService
             return Title.M1CE;
         }
         
+        // If the player's in the dank packet squad, display that
+        if (ConfigEntry.SERVER_PACKET_SQUAD.getList().contains(player.getName()))
+        {
+            return Title.PACKET_SQUAD;
+        }
+        
         return rank;
     }
 
