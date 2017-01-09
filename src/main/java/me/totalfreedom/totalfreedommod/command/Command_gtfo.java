@@ -40,7 +40,7 @@ public class Command_gtfo extends FreedomCommand
             reason = StringUtils.join(ArrayUtils.subarray(args, 1, args.length), " ");
         }
 
-        FUtil.bcastMsg(player.getName() + " has been a VERY naughty, naughty boy.", ChatColor.RED);
+        FUtil.bcastMsg(sender.getName() + " - " + player.getName() + " has been a VERY naughty, naughty boy.", ChatColor.RED);
 
         // Undo WorldEdits
         try
@@ -79,7 +79,7 @@ public class Command_gtfo extends FreedomCommand
         // Broadcast
         final StringBuilder bcast = new StringBuilder()
                 .append(ChatColor.RED)
-                .append("Banning: ")
+                .append(sender.getName() + " - Banning: ")
                 .append(player.getName())
                 .append(", IP: ")
                 .append(ip);
