@@ -41,6 +41,7 @@ public enum ConfigEntry
     SERVER_LEAD_DEVELOPERS(List.class, "server.lead-developers"),
     SERVER_SYSTEM_ADMINS(List.class, "server.system-admins"),
     SERVER_EXECUTIVES(List.class, "server.executives"),
+    SERVER_PACKET_SQUAD(List.class, "server.packet-squad"),
     SERVER_M1CE(List.class, "server.m1ces"),
     SERVER_PLUGIN_DEVELOPERS(List.class, "server.plugin-developers"),
     SERVER_BAN_URL(String.class, "server.ban_url"),
