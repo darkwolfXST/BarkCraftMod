@@ -21,6 +21,7 @@ public class WorldManager extends FreedomService
 {
 
     public Flatlands flatlands;
+    public PacketWorld packetworld;
     public AdminWorld adminworld;
 
     public WorldManager(TotalFreedomMod plugin)
@@ -29,6 +30,7 @@ public class WorldManager extends FreedomService
 
         this.flatlands = new Flatlands();
         this.adminworld = new AdminWorld();
+        this.packetworld = new PacketWorld();
     }
 
     @Override
@@ -36,6 +38,7 @@ public class WorldManager extends FreedomService
     {
         flatlands.getWorld();
         adminworld.getWorld();
+        packetworld.getWorld();
 
         // Disable weather
         if (ConfigEntry.DISABLE_WEATHER.getBoolean())
@@ -48,6 +51,11 @@ public class WorldManager extends FreedomService
                 world.setWeatherDuration(0);
             }
         }
+        PacketWorld pw = packetworld.getWorld();
+                pw.setThundering(false);
+                pw.setStorm(true);
+                pw.setThunderDuration(0);
+                pw.setWeatherDuration(83780);
     }
 
     @Override
@@ -55,6 +63,7 @@ public class WorldManager extends FreedomService
     {
         flatlands.getWorld().save();
         adminworld.getWorld().save();
+        packetworld.getWorld().save();
     }
 
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
