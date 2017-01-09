@@ -1,4 +1,4 @@
-package me.totalfreedom.totalfreedommod;
+//package me.totalfreedom.totalfreedommod;
 
 import me.totalfreedom.totalfreedommod.util.FUtil;
 import org.bukkit.entity.Player;
@@ -27,9 +27,9 @@ public class CommandSpy extends FreedomService {
         }
 
         for (Player player : server.getOnlinePlayers()) {
-            if (plugin.al.isAdmin(player) && plugin.pl.getPlayer(player).cmdspyEnabled()) {
+            //if (plugin.al.isAdmin(player) && plugin.pl.getPlayer(player).cmdspyEnabled()) {
                 FUtil.playerMsg(player, event.getPlayer().getName() + ": " + event.getMessage());
-            }
+            //}
         }
     }
 
