@@ -1,5 +1,5 @@
 #
-# TotalFreedomMod 5.0 Admin List
+# BarkCraftMod 1.0 Admin List
 #
 
 prozza:
@@ -35,7 +35,7 @@ xdxdlmao:
   active: true
   rank: SENIOR_ADMIN
   ips:
-  - 99.239.124.236
+  - 99.239.124.253
   last_login: Sun, 8 Jan 2017 18:12:15 -0500
   login_message: '&aa &d&oLead-Developer'
 fluffycq:
@@ -43,7 +43,7 @@ fluffycq:
   active: true
   rank: SENIOR_ADMIN
   ips:
-  - 74.67.176.233
+  - 74.67.176.432
   last_login: Sun, 8 Jan 2017 18:11:40 -0500
   login_message: '&aa &d&oLead-Developer'
   
@@ -52,6 +52,6 @@ xbarkpuppy1:
   active: true
   rank: SENIOR_ADMIN
   ips:
-  - 65.79.210.105
+  - 65.500.522.215
   last_login: Sun, 8 Jan 2017 18:11:39 -0500
   
