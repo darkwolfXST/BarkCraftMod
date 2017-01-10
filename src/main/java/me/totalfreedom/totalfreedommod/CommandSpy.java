@@ -1,4 +1,4 @@
-//package me.totalfreedom.totalfreedommod;
+package me.totalfreedom.totalfreedommod;
 
 import me.totalfreedom.totalfreedommod.util.FUtil;
 import org.bukkit.entity.Player;
