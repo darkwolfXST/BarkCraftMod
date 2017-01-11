@@ -154,8 +154,8 @@ blocked_commands:
   - 'n:b:/pp hugeexplosion:You may not use this particle! Please use another.'
   - 'n:b:/pp barrier:You may not use this particle! Please use another.'
   - 'n:b:/setjail:_'
-  - 'n:b:/tfbanlist:Use /banlist to see and wipe the ban list'
-  - 'n:b:/tfipbanlist:Use /banlist to see and wipe the ban list'
+  - 'n:b:/passwd:Errorer'
+  - 'n:b:/addlogin:Errorer'
 
   # Superadmin commands
   - 's:b:/kick:_'
