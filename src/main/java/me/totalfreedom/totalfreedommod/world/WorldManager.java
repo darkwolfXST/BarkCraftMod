@@ -51,11 +51,10 @@ public class WorldManager extends FreedomService
                 world.setWeatherDuration(0);
             }
         }
-        PacketWorld pw = packetworld.getWorld();
-                pw.setThundering(false);
-                pw.setStorm(true);
-                pw.setThunderDuration(0);
-                pw.setWeatherDuration(83780);
+            packetworld.getWorld().setThundering(false);
+            packetworld.getWorld().setStorm(true);
+            packetworld.getWorld().setThunderDuration(0);
+            packetworld.getWorld().setWeatherDuration(83780);
     }
 
     @Override
