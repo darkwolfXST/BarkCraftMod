@@ -6,5 +6,5 @@ This plugin was originally coded by StevenLawson (Madgeek1450), with Jerom van d
 
 ### Download ###
 You may download official binaries from the [releases page](https://github.com/TotalFreedom/TotalFreedomMod/releases).
-# BarkCraftMod #                                                                
+### BarkCraftMod ###                                                                
 BarkCraftMod is a Fork of TotalFreedomMod it was edited by Fluffycq and JakeHQ for Code and Default Configs and xBarkPuppy1 for the Default Configs
