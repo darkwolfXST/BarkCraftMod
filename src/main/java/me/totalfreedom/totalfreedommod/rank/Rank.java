@@ -1,3 +1,4 @@
+
 package me.totalfreedom.totalfreedommod.rank;
 
 import lombok.Getter;
@@ -9,6 +10,7 @@ public enum Rank implements Displayable
     IMPOSTOR("an", "Impostor", Type.PLAYER, "Imp", ChatColor.YELLOW),
     NON_OP("a", "Non-Op", Type.PLAYER, "", ChatColor.GREEN),
     OP("an", "Op", Type.PLAYER, "OP", ChatColor.RED),
+    TRUSTED_OP("an", "Trusted Op", Type.PLAYER, "OP", ChatColor.BLUE),
     SUPER_ADMIN("a", "Super Admin", Type.ADMIN, "SA", ChatColor.AQUA),
     TELNET_ADMIN("a", "Telnet Admin", Type.ADMIN, "STA", ChatColor.DARK_GREEN),
     SENIOR_ADMIN("a", "Senior Admin", Type.ADMIN, "SrA", ChatColor.GOLD),
