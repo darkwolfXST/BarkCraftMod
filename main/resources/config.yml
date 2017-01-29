@@ -49,8 +49,8 @@ server:
   executives:
     - none
     
-  # All players who show up as the dank M1CE
-  m1ces:
+  # All players who show up as the xBarkSquad
+  xbarksquad:
     - xdxdlmao
     - CPacket
     - CPacketSquad
